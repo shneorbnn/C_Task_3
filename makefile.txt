@@ -1,0 +1,5 @@
+makesort: isort.c isort.c.o
+	gcc -o isort.c -I.
+maketxtfind: txtfind.c txtfind.c.o text.txt
+	gcc -o txtfind.c txtfind.c.o -I.
+
